@@ -1,0 +1,20 @@
+<?php
+
+$aluno = [
+    "nome" => "joão",
+    "matéria" => "matematica",
+    "nota" => "8"
+];
+if($aluno["nota"] >=7){
+    echo "aluno aprovado";
+    echo "<br>";
+} else if($aluno["nota"] >= 5 && $aluno["nota"] < 7){
+    echo "aluno em recuperaçao";
+    echo "<br>";
+}else {
+    echo "aluno reprovado";
+    echo "<br>";
+}
+
+
+
